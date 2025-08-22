@@ -31,6 +31,7 @@ void load_textures() {
     load_texture("BMW Bonus", "Assets/Cars/bonuscar0.png");
     load_texture("SUPRA Bonus", "Assets/Cars/bonuscar1.png");
     load_texture("CHARGER Bonus", "Assets/Cars/bonuscar2.png");
+    load_texture("SCHOOL BUS BONUS", "Assets/Cars/bonuscar3.png");
 
     // All Levels Textures
 }
