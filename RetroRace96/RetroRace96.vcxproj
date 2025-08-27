@@ -131,7 +131,9 @@
     <ClCompile Include="font.cpp" />
     <ClCompile Include="graphic.cpp" />
     <ClCompile Include="RetroRace96.cpp" />
+    <ClCompile Include="settings.cpp" />
     <ClCompile Include="sound.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="car.hpp" />

@@ -191,7 +191,7 @@ static std::map<std::string, Car> cars {
         .hp = {100},
         .name = {"SUPRA Bonus"},
         .skin = {"SUPRA Bonus"},
-        .sound_engine = {"V6"},
+        .sound_engine = {""},
         .sound_nitro = {},
     }},
     { "SCHOOL BUS BONUS", Car {
@@ -210,11 +210,11 @@ static std::map<std::string, Car> cars {
         .skin = {"SCHOOL BUS BONUS"},
         .sound_engine = {"I4"},
         .sound_nitro = {},
-    } },
+    }},
 };
 
 Car make_player() {
-    return cars.at("SCHOOL BUS BONUS"); // Car of Player(DEBUG Mode)
+    return cars.at("BMW Bonus"); // Car of Player(DEBUG Mode)
 }
 
 Car make_bot() {

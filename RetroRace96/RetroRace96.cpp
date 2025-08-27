@@ -9,10 +9,18 @@
 #include "car.hpp"
 #include "font.hpp"
 #include "sound.hpp"
+#include "test.hpp"
 
 int main() {
+    load_settings();
+
+    if (config["TEST"] == "1") {
+        test();
+        return 0;
+    }
+
     // создать окно
-    sf::RenderWindow window(sf::VideoMode({WINDOW_X, WINDOW_Y}), GAME_NAME);
+    sf::RenderWindow window(sf::VideoMode(sf::Vector2u(WINDOW_X, WINDOW_Y)), GAME_NAME);
     window.setVerticalSyncEnabled(false); // выключить синхронизацию кадров экрана
     window.setFramerateLimit(MAX_FPS); // скорость игры
     sf::Clock clock;
